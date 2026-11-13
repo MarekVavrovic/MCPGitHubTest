@@ -1,0 +1,51 @@
+/* CSS for MCPpage component */
+.markdown-content {
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+    .markdown-content h1,
+    .markdown-content h2,
+    .markdown-content h3 {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .markdown-content pre {
+        background-color: #212529;
+        color: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        overflow-x: auto;
+        margin: 12px 0;
+    }
+
+        .markdown-content pre code {
+            background: transparent;
+            color: inherit;
+            padding: 0;
+            white-space: pre;
+        }
+
+    .markdown-content code {
+        background-color: #e9ecef;
+        padding: 2px 5px;
+        border-radius: 4px;
+    }
+
+    .markdown-content ul,
+    .markdown-content ol {
+        padding-left: 25px;
+    }
+
+    .markdown-content table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    .markdown-content th,
+    .markdown-content td {
+        border: 1px solid #dee2e6;
+        padding: 8px;
+    }
